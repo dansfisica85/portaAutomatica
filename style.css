@@ -4,19 +4,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 300px;
+    height: 1080px;
+    width: 1540px;
     background-color: #d1f30c; 
 }
 /* Estilos para os botões */
 .button#abrirPorta {
     padding: 10px 20px;
-    font-size: 16px;
-    background-color: #f663e5; 
+    font-size: 20px;
+    background-color: #63f6a8; 
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 150px;
     cursor: pointer;
+     border-style: solid;
+    box-shadow: #008CBA 10px 10px 15px;
+
 }
  /* Estilos para o botão de fechar porta */
 .button#fecharPorta {
@@ -25,8 +28,12 @@
     background-color: #f44336; 
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 150px;
+    border-left: #000703 20px solid;
+    border-right: #000703 20px solid;
     cursor: pointer;
+     border-style: solid;
+    box-shadow: #008CBA 10px 10px 15px;
 }
 
 /* Estilos para o botão de identificar pessoa */
@@ -36,7 +43,26 @@
     background-color: #008CBA; 
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 150px;
     cursor: pointer;
+     border-style: solid;
+    box-shadow: #008CBA 10px 10px 15px;
 }
 
+.imgPorta#imgPorta {
+    width: 250px;
+    height: 250px;
+    border-color: #000703;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: #008CBA 10px 10px 15px;
+
+}
+.titulo {
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    border-color: #01401d ;
+    border-width: 10px;
+    border-style: dashed;
+}
