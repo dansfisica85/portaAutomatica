@@ -65,4 +65,16 @@
     border-color: #01401d ;
     border-width: 10px;
     border-style: dashed;
+    justify-content: center;    
+}
+
+footer {
+align-items: center;
+text-align: center;
+padding: 10px;
+color: #000000;
+font-family: Arial, sans-serif ;
+font-weight: bold;
+font-size: 20px;
+
 }
